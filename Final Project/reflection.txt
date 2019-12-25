@@ -1,0 +1,19 @@
+reflection.txt
+
+The source bodies of text chosen were from The Office (Season 5, Episode 13 - Stress Relief) and Brooklyn 99 (Season 5, Episode 14 - The Box).
+Since both shows were directed by the same person, we chose to compare another show written by the same person. That show is Parks and Recreation
+(Season 5, Episode 14 - Leslie and Ben). Based on the code written, it was found that s5ep14 of Parks was more likely to have come from s5ep13 of The Office.
+However, we want to note that the comparison scores were very similar.
+
+The following is the result of our code:
+
+scores for theoffice: [-22494.67289561892, -7094.020479452857, -22131.354662422735, -89.62913312132817, -209.09834768368057]
+scores for brooklyn99: [-22507.860501751013, -7102.596567554924, -22082.99159079336, -93.13219677928467, -213.15510418628705]
+parks is more likely to have come from theoffice
+
+We compared words, word lengths, stems, sentence lengths, and our own choice - conjunction frequencies.
+We believe our text classification program works quite well. It is adequate for use. Of course, our stemming program was only limited to the removal
+of 'most' suffixes and no prefixes. We tried our best to get as many suffix scenarios as possible, but nonetheless, the ambiguity of the English
+language proves to be a most difficult trial for us to completely and fully devise a true 'stemming' program. In terms of improval,
+further cleanups, additions, and tweaks to the stemming program would be the main focus in a future attempt at this program. Furthermore, it would be
+beneficial to utilize more options for comparing bodies of text.
